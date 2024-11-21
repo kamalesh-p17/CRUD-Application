@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: poppins,sans-serif;
+}
+body{
+    background-color: rgb(209, 208, 208);
+}
+input{
+    all: unset;
+    width: 300px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#form-container{
+    margin: 20px;
+}
+#form-container td{
+    padding: 5px;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.936);
+    width: 600px;
+    height: 200px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+#btn{
+    all: unset;
+    background: tomato;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+.table-container table{
+    width: 90%;
+}
+.table-container thead{
+    background-color: teal;
+    height: 40px;
+}
+
+#tbody button{
+    all: unset;
+    padding: 2px 30px;
+    margin: 3%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#tbody button:nth-child(1){
+    background-color: rgb(60, 162, 60);
+}
+#tbody button:nth-child(2){
+    background-color: rgb(252, 23, 23);
+}
+
+#tbody button:nth-child(1):hover{
+    background-color: rgb(46, 150, 46);
+}
+#tbody button:nth-child(2):hover{
+    background-color: rgb(212, 4, 4);
+}
+
+tbody .table-row:nth-child(odd){
+    background-color: white;
+}
+tbody .table-row:nth-child(even){
+    background-color: rgb(179, 179, 179);
+}
+
+
+

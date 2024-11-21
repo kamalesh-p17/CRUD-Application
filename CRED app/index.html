@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/8081243ed1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2 style="text-align: center;margin: 20px;">CRUD Application by JavaScript with Fire base</h2>
+    <div id="form-container">
+        <form action="#" id="frm">
+            <input type="hidden" id="i_id">
+            <table>
+                <tr>
+                    <td><label for="i_first">First Name : </label></td>
+                    <td><input id="i_first" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="i_last">Last Name : </label></td>
+                    <td><input id="i_last" type="text" ></td>
+                </tr>
+                <tr>
+                    <td><label for="i_mail">Email : </label></td>
+                    <td><input id="i_mail" type="email" ></td>
+                </tr>
+            </table>
+            <button type="submit" id="btn"><i  class="fa-regular fa-floppy-disk"></i>Submit</button>
+        </form>        
+    </div>
+    <center>    <hr style="width: 90%; text-align: center;margin: 30px 0;">    </center>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <th>S.N0</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Option</th>
+            </thead>
+            <tbody id="tbody">
+                <!-- <tr class="table-row"> 
+                    <td>1</td>
+                    <td>Kamalesh</td>
+                    <td>Mukesh</td>
+                    <td>name@gmail.com</td>
+                    <td>
+                        <button><i class="fa-solid fa-pen-to-square"></i></button><button><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="script.js" type="module"></script>
+</html>
